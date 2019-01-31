@@ -34,7 +34,6 @@ header {
 
 	display: block;
 	color: #2b2a2c;
-	font-family: "Open Sans - Extra Bold";
 	font-size: 16px;
 	font-weight: 800;
 	line-height: 15px;
@@ -45,31 +44,41 @@ header {
 
 	display: flex;
 	justify-content: flex-end;
+	padding-left: 280px;
+
 }
 
-.menu-list__about {
+.menu-list ul {
 
 	display: flex;
-	justify-content: center;
-	list-style-type: none;
-	padding-left: 0;
-}
-
-.menu-list__about li {
-
-	margin-right: 25px;
-	color: #2b2a2c;
-	font-family: "Open Sans - Extra Bold";
+	justify-content: flex-end;
 	font-size: 14px;
 	font-weight: 800;
 	line-height: 16.84px;
 	text-transform: uppercase;
 	letter-spacing: 0.7px;
+	list-style-type: none; 
+	padding-left: 0;
 }
 
-.menu-list__about a {
+.menu-list li {
 
-	text-decoration: none;
+	margin-right: 34px;
+	
 }
 
+.menu-button {
+
+	color: #2b2a2c;
+	font-size: 14px;
+	font-weight: 800;
+	line-height: 16.84px;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	border-radius: 19px;
+	border: 2px solid #2b2a2c;
+	padding: 13px 23px;
+	background-color: transparent;
+	cursor: pointer;
+}
 

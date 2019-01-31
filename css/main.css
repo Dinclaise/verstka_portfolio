@@ -11,11 +11,17 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.container {
+.menu {
 
 	width: 100%;
 	max-width: 1172px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+a {
+	
+	text-decoration: none;
+	color: #2b2a2c;
 }
 
