@@ -43,28 +43,21 @@ header {
 .menu-list {
 
 	display: flex;
-	justify-content: flex-end;
-	padding-left: 280px;
-
-}
-
-.menu-list ul {
-
-	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
+	align-items: center;
 	font-size: 14px;
 	font-weight: 800;
 	line-height: 16.84px;
 	text-transform: uppercase;
 	letter-spacing: 0.7px;
 	list-style-type: none; 
-	padding-left: 0;
+	border: 1px solid red;
+	
 }
 
-.menu-list li {
+.menu-list a {
 
 	margin-right: 34px;
-	
 }
 
 .menu-button {
