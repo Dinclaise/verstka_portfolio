@@ -30,6 +30,12 @@ body {
 }
 
 a {
+
+	text-decoration: none;
+	color:#000;
+}
+
+.menu-list nav a {
 	
 	display: inline-block;
 	text-decoration: none;
@@ -37,7 +43,7 @@ a {
 	position: relative;
 }
 
-a:after {
+.menu-list nav a:after {
 
 	content: "";
 	width: 0%;
@@ -50,8 +56,8 @@ a:after {
     transform: translateX(-50%);
 }
 
- a:hover:after,
- a:focus:after {
+ .menu-list nav a:hover:after,
+ .menu-list nav a:focus:after {
 
 	width: 100%;
 }
