@@ -1,0 +1,47 @@
+.about-me__description {
+
+	width: 50%;
+}
+
+.about-me-img {
+
+	width: 50%;
+}
+
+.welcome-title {
+
+	padding-bottom: 26px;
+}
+
+.title-hey {
+
+	color: #2b2a2c;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 15px;
+	padding-bottom: 15px;
+}
+
+.name-title {
+
+	color: #2b2a2c;
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 48px;
+	padding-bottom: 8px;
+}
+
+.description-work {
+
+	border-bottom: 2px solid black;
+	width: 60%;
+	padding-bottom: 5px;
+}
+
+.description-work-site {
+
+	color: #6a696b;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 15px;
+}
