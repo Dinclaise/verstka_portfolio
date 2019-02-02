@@ -4,7 +4,6 @@
 	max-width: 1173px;
 	margin-left: auto;
 	margin-right: auto;
-	/*overflow: hidden;*/
 }
 
 .flex-card {
@@ -16,6 +15,7 @@
 }
 
 .card {
+	
 	width: 32%;
 	margin-right: 31px;
 }
