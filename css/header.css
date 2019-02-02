@@ -63,6 +63,26 @@ header {
 	margin-right: 34px;
 }
 
+.menu-list-bottom {
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+	font-weight: 800;
+	line-height: 16.84px;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	list-style-type: none; 
+	
+	
+}
+
+.menu-list-bottom a {
+
+	margin-right: 34px;
+}
+
 .menu-button {
 
 	color: #2b2a2c;

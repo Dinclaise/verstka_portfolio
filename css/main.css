@@ -67,3 +67,31 @@ a {
 	width: 100%;
 }
 
+/* ------------для нижнего меню-------------- */
+
+.menu-list-bottom nav a {
+	
+	display: inline-block;
+	text-decoration: none;
+	color: #8D8D8E;
+	position: relative;
+}
+
+.menu-list-bottom nav a:after {
+
+	content: "";
+	width: 0%;
+	height: 2px;
+	left: 50%;
+	display: block;
+	background-color: #F5C007;
+    transition: width .3s ease-in-out;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+ .menu-list-bottom nav a:hover:after,
+ .menu-list-bottom nav a:focus:after {
+
+	width: 100%;
+}
