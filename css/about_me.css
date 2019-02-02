@@ -69,15 +69,26 @@
 	letter-spacing: 0.8px;
 	padding: 20px 34px;
 	border-radius: 25px;
-	border: 1px solid #6a696b;
 	margin-right: 17px;
-	border: none;
+	cursor: pointer;
+	background-color: #1D0E38;
+	border: 2px solid #101214;
+}
+
+.button-write:hover {
+	
+	background-color: #E46121;
+	box-shadow: 0px 0px 8px 2px #FE012E;
+}
+
+.button-write:focus {
+
 	outline: none;
 }
 
 .button-about_me {
 
-	color: #6a696b;
+	color: #4A494B;
 	font-size: 16px;
 	font-weight: 800;
 	line-height: 15px;
@@ -85,6 +96,20 @@
 	border-radius: 25px;
 	padding: 20px 43px;
 	border:none;
+	outline: none;
+	cursor: pointer;
+	background-color: transparent;
+	border: 2px solid #101214;
+}
+
+.button-about_me:hover {
+
+	background-color: #46BF55;
+	box-shadow: 0px 0px 8px 2px #FE012E;
+}
+
+.button-about_me:focus {
+
 	outline: none;
 }
 
