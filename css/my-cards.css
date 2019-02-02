@@ -1,0 +1,53 @@
+.card-content {
+	
+	display: block;
+	width: 370px;
+	height: 300px;
+	border-radius: 10px 10px 0 0;
+	background-color: #717072;
+	box-shadow: 0px 0px 0.5px 0.5px #808080;
+}
+
+.card-content__description {
+
+	width: 370px;
+	height: 71px;
+	border-radius: 0 0 10px 10px;
+	background-color: #ffffff;
+	border: 1px solid #808080;
+	box-shadow: 0px 0px 0.5px 0.5px #808080;
+	padding-bottom: 19px;
+	padding-left: 13px;
+}
+
+.category {
+
+	color: #2b2a2c;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 15px;
+	letter-spacing: 0.6px;
+}
+
+.about-title {
+
+	padding-top: 12px;
+}
+
+.project-title {
+
+	color: #2b2a2c;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 15px;
+	text-transform: uppercase;
+	padding-right: 129px;
+}
+
+.year {
+
+	color: #2b2a2c;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 15px;
+}
