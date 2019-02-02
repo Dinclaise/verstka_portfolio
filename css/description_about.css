@@ -1,0 +1,34 @@
+.left-img {
+
+	width: 542px;
+	height: 606px;
+	background-image: url(../images/lemur.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-right: 61px;
+
+}
+
+.desc-text {
+
+	width: 50%;
+}
+
+.title {
+
+	color: #2b2a2c;
+	font-size: 45px;
+	font-weight: 800;
+	line-height: 15px;
+	text-transform: uppercase;
+	padding-bottom: 42px;
+}
+
+.desc-text__about {
+
+	color: #717072;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 24px;
+	padding-bottom: 53px;
+}
