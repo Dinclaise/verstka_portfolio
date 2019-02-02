@@ -72,6 +72,7 @@
 	cursor: pointer;
 	background-color: #1D0E38;
 	border: 2px solid #101214;
+	transition: all 0.7s ease-in-out;
 }
 
 .button-write:hover {
