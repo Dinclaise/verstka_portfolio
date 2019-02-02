@@ -9,16 +9,7 @@
 .about-me__description {
 
 	width: 50%;
-}
-
-.about-me-img {
-
-	width: 50%;
-	position: absolute;
-	background-image: url(../images/filin.jpg);
-	background-repeat: no-repeat;
-	background-size: 368px 493px;
-	background-position: center;
+	margin-right: 318px;
 }
 
 .welcome-title {
@@ -90,6 +81,14 @@
 	line-height: 15px;
 	letter-spacing: 0.8px;
 	border-radius: 25px;
-	border: 1px solid #6a696b;
 	padding: 20px 43px;
+}
+
+.about-me-img {
+	
+	width: 368px;
+	height: 493px;
+	background-image: url(../images/filin_2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }

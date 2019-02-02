@@ -23,7 +23,9 @@ header {
 	width: 57px;
 	height: 57px;
 	border-radius: 50%;
-	background-color: #000;
+	background-color: transparent;
+	background-image: url(../images/logo.png);
+	background-size: cover;
 }
 
 .description {
