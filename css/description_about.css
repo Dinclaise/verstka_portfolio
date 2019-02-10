@@ -7,6 +7,7 @@
 
 	width: 542px;
 	height: 606px;
+	border-radius: 10%;
 	background-image: url(../images/lemur.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
