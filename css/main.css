@@ -3,6 +3,12 @@
 	box-sizing: border-box;
 }
 
+.bgForTwoSection {
+	
+	background-image: url(../images/bg-2_comp.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 body {
 
 	min-width: 320px;
