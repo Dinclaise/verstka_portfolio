@@ -26,6 +26,12 @@
 	<!-- Подключаю icon -->
 	<link rel="shortcut icon" href="images/icon.png" type="image/png">
 
+	<!-- Put this script tag to the <head> of your page -->
+	<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+	<script type="text/javascript">
+	  VK.init({apiId: 6856947, onlyWidgets: true});
+	</script>
+
 	<title>MyP - Din</title>
 </head>
 <body>
@@ -181,27 +187,36 @@
 
 		<section class="description_about wow fadeInUp">
 			<div class="container">
+				<div class="description-wrapper">
 				<div class="left-img"></div>
 
-				<div class="desc-text">
-					<h2 class="title">Обо мне</h2>
+					<div class="desc-text">
+						<h2 class="title">Обо мне</h2>
 
-					<div class="desc-text__about">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque voluptatibus delectus dolorum quaerat tenetur pariatur aperiam quibusdam placeat, eveniet accusantium animi ab tempora natus beatae consequuntur debitis atque laboriosam quam facere amet, adipisci non. Sunt voluptate soluta quam, laboriosam eligendi, natus.</p>
+						<div class="desc-text__about">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque voluptatibus delectus dolorum quaerat tenetur pariatur aperiam quibusdam placeat, eveniet accusantium animi ab tempora natus beatae consequuntur debitis atque laboriosam quam facere amet, adipisci non. Sunt voluptate soluta quam, laboriosam eligendi, natus.</p>
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae voluptates deserunt excepturi hic voluptas obcaecati tenetur magni voluptate exercitationem totam eius unde, earum placeat provident veritatis at doloribus a expedita maxime. Quis, at.</p>
-					</div>
-					<div class="social-buttons">
-						<button class="button-write">Написать мне</button>
-						<button class="button-about_me">Моё резюме</button>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae voluptates deserunt excepturi hic voluptas obcaecati tenetur magni voluptate exercitationem totam eius unde, earum placeat provident veritatis at doloribus a expedita maxime. Quis, at.</p>
+						</div>
+						<div class="social-buttons">
+							<button class="button-write">Написать мне</button>
+							<button class="button-about_me">Моё резюме</button>
+						</div>
 					</div>
 				</div>
 			</div>
+			 
+					<!-- Put this div tag to the place, where the Comments block will be -->
+				<div id="vk_comments"></div>
+				<script type="text/javascript">
+				VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
+				</script>
 		</section>
 
 		<!-- Конец секции  description_about-->
 
-		<footer class="footer">
+	<footer class="footer">
+		<div class="footer-wrapper">
 			<div class="footer-flex">
 				<div class="copyright">© 2018 Все права защищены.</div>
 				<div class="stick"></div>
@@ -214,8 +229,9 @@
 				</nav>
 				<button class="menu-button-bottom">Написать</button>
 			</div>
+		</div>
 
-		</footer>
+	</footer>
 
 
 		<!-- Подключаю скрипты для анимации wow.js -->

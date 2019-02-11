@@ -3,6 +3,13 @@
 	margin-bottom: 105px;
 }
 
+.description-wrapper {
+	
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .left-img {
 
 	width: 542px;
@@ -37,4 +44,9 @@
 	font-weight: 300;
 	line-height: 24px;
 	padding-bottom: 53px;
+}
+
+#vk_comments {
+	
+	padding: 50px 200px;
 }

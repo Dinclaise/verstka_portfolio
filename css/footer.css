@@ -8,12 +8,19 @@
 	background-color: #2b2a2c;
 }
 
+.footer-wrapper {
+	
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
 .footer-flex {
 	
 	max-width: 1173px;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+	margin-right: 100px;
 	
 }
 
