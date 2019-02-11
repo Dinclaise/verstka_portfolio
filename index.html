@@ -3,14 +3,26 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<!-- Подключаю стили для секций -->
+
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/about_me.css">
 	<link rel="stylesheet" href="css/my-cards.css">
 	<link rel="stylesheet" href="css/description_about.css">
 	<link rel="stylesheet" href="css/footer.css">
+	
+	<!-- Подключаю шрифт -->
+
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800&amp;subset=cyrillic" rel="stylesheet">
+
+	<!-- Подключаю значки -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+	<!-- Подключаю анимацию animate.css -->
+
+	<link rel="stylesheet" href="libs/animate.css/animate.css">
+
 	<title>MyP - Din</title>
 </head>
 <body>
@@ -18,7 +30,7 @@
 	<div class="bgForTwoSection">
 <header>
 	
-		<div class="menu">
+		<div class="menu wow fadeIn">
 			<div class="menu-logo">
 				<div class="avatar">
 					
@@ -50,14 +62,14 @@
 		<section class="about-me">
 			<div class="container">
 				<div class="about-me__description">
-					<div class="welcome-title">
+					<div class="welcome-title wow fadeInUp">
 						<div class="title-hey">Привет, меня зовут</div>
 						<div class="name-title">Антон Анохин</div>
 						<div class="description-work">
 						<small class="description-work-site">Я разрабатываю сайты</small></div>
 					</div>
 
-					<div class="social-list">
+					<div class="social-list wow fadeInUp">
 						<a href="#" class="social vk">
 							<i class="fab fa-vk"></i>
 						</a>
@@ -71,7 +83,7 @@
 							<i class="fab fa-github"></i>
 						</a>
 					</div>
-					<div class="social-buttons">
+					<div class="social-buttons wow fadeInUp">
 						<button class="button-write">Написать мне</button>
 						<button class="button-about_me">Моё резюме</button>
 					</div>
@@ -80,7 +92,7 @@
 		</section>
 	</div>
 
-		<section class="my-cards">
+		<section class="my-cards wow fadeInUp">
 			<div class="flex-card">
 				<div class="card">
 					<div class="card-content"></div>
@@ -147,7 +159,7 @@
 			</div>
 		</section>
 
-		<section class="description_about">
+		<section class="description_about wow fadeInUp">
 			<div class="container">
 				<div class="left-img"></div>
 
@@ -182,5 +194,12 @@
 			</div>
 
 		</footer>
+
+
+		<!-- Подключаю скрипты для анимации wow.js -->
+
+		<script src="libs/wow.js/wow.min.js"></script>
+		<!-- Подключаю свой скрипт для анимации -->
+		<script src="js/main.js"></script>
 	</body>
 </html>	

@@ -1,1 +1,0 @@
-# verstka_portfolio
