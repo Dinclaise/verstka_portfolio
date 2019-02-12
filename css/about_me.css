@@ -69,15 +69,14 @@
 
 .vk {
 	
-	background-color: #93CAED;
-	color: #122BC6;
+	background-color: #4d75a2;
+	color: #fff;
 	transition: all 0.2s ease-in-out;
 }
 
 .vk:hover {
 	
 	background-color: #6E25DC;
-	color: #B79CF3;
 }
 
 .vk:active {
@@ -87,7 +86,7 @@
 
 .inst {
 	
-	background-color: #6F72E3;
+	background-color: #4169E1;
 	color: #fff;
 	transition: all 0.2s ease-in-out;
 }
