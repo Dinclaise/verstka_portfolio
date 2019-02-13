@@ -10,7 +10,7 @@
 .flex-card {
 	
 	display: flex;
-	align-content: center;
+	justify-content: center;
 	flex-direction: row;
 	margin-bottom: 41px;
 }
@@ -71,6 +71,6 @@
 
 	color: #2b2a2c;
 	font-size: 16px;
-	font-weight: 700;
+	font-weight: 800;
 	line-height: 15px;
 }

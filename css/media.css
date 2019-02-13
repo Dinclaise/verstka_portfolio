@@ -116,6 +116,47 @@ header {
 
 /* ---------------- MY - CARDS ----------------*/
 
+.flex-card {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
 
+.card {
+	
+	margin-right: 0;
+}
+
+.card-content {
+	
+	width: 295px;
+	height: 240px;
+	margin-left: 13px;
+}
+
+.card-content__description {
+	
+	width: 295px;
+	height: 61px;
+	margin-left: 13px;
+	margin-bottom: 15px;
+}
+
+.about-title {
+	
+	padding-top: 5px;
+}
+
+.project-title {
+	
+	font-size: 14px;
+	padding-right: 85px;
+}
+
+.year {
+	
+	font-size: 14px;
+}
 
 }
