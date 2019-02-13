@@ -193,6 +193,12 @@ header {
 
 /*------------END DESCRIPTION_ABOUT ---------*/
 
+#vk_comments {
+	
+	padding: 0;
+}
+
+
 /*------------- FOOTER --------------- */
 
 .footer {
