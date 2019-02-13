@@ -33,17 +33,6 @@ body {
 	background-size: cover;
 }*/
 
-.menu {
-
-	width: 100%;
-	max-width: 1172px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 15px;
-	/*border-bottom: 2px solid black;
-	box-shadow: 0px 12px 14px -8px #211F29;*/
-}
-
 .container {
 
 	display: flex;
@@ -119,3 +108,19 @@ a {
 	width: 100%;
 	background-color: #2C7174;
 }
+
+
+/* ------------- MEDIA -----------------*/
+
+/*---------- MEDIA for 320px ----------*/
+
+/* @media (max-width: 319px) {
+	
+	.bgForTwoSection {
+	
+	background-image: url(../images/bg-3_comp.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+} */

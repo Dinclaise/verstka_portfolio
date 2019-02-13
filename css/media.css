@@ -1,0 +1,121 @@
+@media (max-width: 320px) {
+
+body {
+		
+	width: 100%;	
+}
+/* ----------- HEADER -------------------*/
+
+header {
+	
+	margin-bottom: 50px;
+}
+
+.bgForTwoSection {
+	
+	background-image: url(../images/bg-3_comp.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.menu {
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 15px;
+
+}
+
+.menu-logo {
+	
+	margin-bottom: 25px;
+}
+
+.menu-list {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-list nav {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.menu-list nav a {
+	
+	margin-right: 0;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+
+/* ------------ END HEADER ------------------*/
+
+
+
+/* ------------- ABOUT - ME --------------------*/
+
+.about-me__description {
+
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 260px;
+}
+
+.title-hey {
+	
+	text-align: center;
+}
+
+.name-title {
+	
+	text-align: center;
+}
+
+.description-work {
+	width: 100%;
+	text-align: center;
+}
+
+.social-list {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.social-buttons {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.button-write {
+	
+	margin-right: 0;
+	margin-bottom: 10px;
+}
+
+/* ------------END  ABOUT - ME ----------------*/
+
+
+/* ---------------- MY - CARDS ----------------*/
+
+
+
+}
