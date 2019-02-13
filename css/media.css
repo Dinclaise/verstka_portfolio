@@ -13,9 +13,11 @@ header {
 
 .bgForTwoSection {
 	
+	display: block;
 	background-image: url(../images/bg-3_comp.jpeg);
-	background-size: cover;
+	/* background-size: 50% 50% 25%; */
 	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .menu {
@@ -157,6 +159,80 @@ header {
 .year {
 	
 	font-size: 14px;
+}
+
+/* ------------END MY - CARDS ---------------*/
+
+
+/*-------------DESCRIPTION_ABOUT ---------------*/
+
+.description-wrapper {
+	
+	flex-direction: column;
+}
+
+.left-img {
+	
+	margin-right: 0;
+	max-width: 320px;
+	height: 370px;
+	background-image: url(../images/lemur.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	border-radius: 0;
+	margin-bottom: 20px;
+}
+
+.desc-text {
+	
+	width: 90%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+/*------------END DESCRIPTION_ABOUT ---------*/
+
+/*------------- FOOTER --------------- */
+
+.footer {
+	
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-wrapper {
+
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-flex {
+	
+	justify-content: center;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+
+.menu-list-bottom {
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-menu-list {
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.menu-list-bottom nav a {
+	
+	margin-right: 0;
+	margin-bottom: 10px;
+	font-size: 16px;
 }
 
 }

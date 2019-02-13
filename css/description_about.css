@@ -34,7 +34,7 @@
 	font-weight: 800;
 	line-height: 15px;
 	text-transform: uppercase;
-	padding-bottom: 42px;
+	margin-bottom: 75px;
 }
 
 .desc-text__about {
@@ -43,7 +43,7 @@
 	font-size: 12px;
 	font-weight: 300;
 	line-height: 24px;
-	padding-bottom: 53px;
+	margin-bottom: 53px;
 }
 
 #vk_comments {
