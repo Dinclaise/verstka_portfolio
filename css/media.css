@@ -113,10 +113,38 @@ header {
 	margin-bottom: 10px;
 }
 
+.link-circle {
+		
+	width: 60px;
+	height: 60px;
+}
+
+.link-circle-inner {
+
+	width: 40px;
+	height: 40px;
+	top: 10px;
+	left: 10px;
+}
+
+.link-circle-inner:active {
+	
+	background-color: #B22222;
+}
+
 /* ------------END  ABOUT - ME ----------------*/
 
 
 /* ---------------- MY - CARDS ----------------*/
+
+.my-cards {
+	
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
 
 .flex-card {
 	
@@ -134,14 +162,12 @@ header {
 	
 	width: 295px;
 	height: 240px;
-	margin-left: 13px;
 }
 
 .card-content__description {
 	
 	width: 295px;
 	height: 61px;
-	margin-left: 13px;
 	margin-bottom: 15px;
 }
 
@@ -239,6 +265,584 @@ header {
 	margin-right: 0;
 	margin-bottom: 10px;
 	font-size: 16px;
+}
+
+}
+
+/*------------ MAX-WIDTH ( 320px) ------------*/
+
+
+/*------------ MAX-WIDTH ( 375px) ------------*/
+
+@media (max-width: 375px) {
+
+body {
+		
+	width: 100%;	
+}
+/* ----------- HEADER -------------------*/
+
+header {
+	
+	margin-bottom: 50px;
+}
+
+.bgForTwoSection {
+	
+	display: block;
+	background-image: url(../images/bg-3_comp.jpeg);
+	/* background-size: 50% 50% 25%; */
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.menu {
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 15px;
+
+}
+
+.menu-logo {
+	
+	margin-bottom: 25px;
+}
+
+.menu-list {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-list nav {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.menu-list nav a {
+	
+	margin-right: 0;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+
+/* ------------ END HEADER ------------------*/
+
+
+
+/* ------------- ABOUT - ME --------------------*/
+
+.about-me__description {
+
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 260px;
+}
+
+.title-hey {
+	
+	text-align: center;
+}
+
+.name-title {
+	
+	text-align: center;
+}
+
+.description-work {
+	width: 100%;
+	text-align: center;
+}
+
+.description-work-site {
+	
+	color: #BDF0FD;
+}
+
+.social-list {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.social-buttons {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.button-write {
+	
+	margin-right: 0;
+	margin-bottom: 10px;
+}
+
+.link-circle {
+		
+	width: 60px;
+	height: 60px;
+}
+
+.link-circle-inner {
+
+	width: 40px;
+	height: 40px;
+	top: 10px;
+	left: 10px;
+}
+
+.link-circle-inner:active {
+	
+	background-color: #B22222;
+}
+
+
+/* ------------END  ABOUT - ME ----------------*/
+
+
+/* ---------------- MY - CARDS ----------------*/
+
+.my-cards {
+	
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.flex-card {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.card {
+	
+	margin-right: 0;
+}
+
+.card-content {
+	
+	width: 295px;
+	height: 240px;
+}
+
+.card-content__description {
+	
+	width: 295px;
+	height: 61px;
+	margin-bottom: 15px;
+}
+
+.about-title {
+	
+	padding-top: 5px;
+}
+
+.project-title {
+	
+	font-size: 14px;
+	padding-right: 85px;
+}
+
+.year {
+	
+	font-size: 14px;
+}
+
+/* ------------END MY - CARDS ---------------*/
+
+
+/*-------------DESCRIPTION_ABOUT ---------------*/
+
+.description-wrapper {
+	
+	flex-direction: column;
+}
+
+.left-img {
+	
+	margin-right: 0;
+	max-width: 320px;
+	height: 370px;
+	background-image: url(../images/lemur.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	border-radius: 0;
+	margin-bottom: 20px;
+}
+
+.desc-text {
+	
+	width: 90%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+/*------------END DESCRIPTION_ABOUT ---------*/
+
+#vk_comments {
+	
+	padding: 0;
+}
+
+
+/*------------- FOOTER --------------- */
+
+.footer {
+	
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-wrapper {
+
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-flex {
+	
+	justify-content: center;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+
+.menu-list-bottom {
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-menu-list {
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.menu-list-bottom nav a {
+	
+	margin-right: 0;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+
+
+}
+
+
+/*--------------MAX-WIDTh (375px) END ----------/*
+
+/*-------------- MAX-WIDTH (414px) -------------*/
+
+@media (max-width: 414px) {
+
+body {
+		
+	width: 100%;	
+}
+/* ----------- HEADER -------------------*/
+
+header {
+	
+	margin-bottom: 100px;
+}
+
+.bgForTwoSection {
+	
+	display: block;
+	background-image: url(../images/bg-3_comp.jpeg);
+	/* background-size: 50% 50% 25%; */
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.menu {
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menu-logo {
+	
+	margin-bottom: 35px;
+}
+
+.menu-list {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-list nav {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.menu-list nav a {
+	
+	margin-right: 0;
+	margin-bottom: 15px;
+	font-size: 24px;
+}
+
+.menu-button-bottom {
+	
+	padding: 13px 45px;
+}
+
+/* ------------ END HEADER ------------------*/
+
+
+
+/* ------------- ABOUT - ME --------------------*/
+
+.about-me__description {
+
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 260px;
+}
+
+.title-hey {
+	
+	text-align: center;
+}
+
+.name-title {
+	
+	text-align: center;
+}
+
+.description-work {
+	width: 100%;
+	text-align: center;
+}
+
+.description-work-site {
+	
+	color: #BDF0FD;
+}
+
+.social-list {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.social-buttons {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.button-write {
+	
+	margin-right: 0;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.button-about_me {
+	
+	font-size: 20px;
+}
+
+.link-circle {
+		
+	width: 70px;
+	height: 70px;
+}
+
+.link-circle-inner {
+
+	width: 48px;
+	height: 48px;
+	top: 10px;
+	left: 12px;
+}
+
+.link-circle-inner:active {
+	
+	background-color: #B22222;
+}
+
+/* ------------END  ABOUT - ME ----------------*/
+
+
+/* ---------------- MY - CARDS ----------------*/
+.my-cards {
+	
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.flex-card {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	
+	margin-right: 0;
+	width: 100%;
+}
+
+.card-content {
+	
+	width: 340px;
+	height: 240px;
+}
+
+.card-content__description {
+	
+	width: 340px;
+	height: 61px;
+	margin-bottom: 15px;
+}
+
+.about-title {
+	
+	padding-top: 5px;
+}
+
+.project-title {
+	
+	font-size: 14px;
+	padding-right: 105px;
+}
+
+.year {
+	
+	font-size: 14px;
+}
+
+/* ------------END MY - CARDS ---------------*/
+
+
+/*-------------DESCRIPTION_ABOUT ---------------*/
+
+.description-wrapper {
+	
+	flex-direction: column;
+}
+
+.left-img {
+	
+	margin-right: 0;
+	max-width: 340px;
+	height: 370px;
+	background-image: url(../images/lemur.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.desc-text {
+	
+	width: 90%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+/*------------END DESCRIPTION_ABOUT ---------*/
+
+#vk_comments {
+	
+	padding: 0;
+}
+
+
+/*------------- FOOTER --------------- */
+
+.footer {
+	
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-wrapper {
+
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-flex {
+	
+	justify-content: center;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+
+.menu-list-bottom {
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-menu-list {
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.menu-list-bottom nav a {
+	
+	margin-right: 0;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+.menu-button-bottom {
+	
+	padding: 13px 45px;
 }
 
 }
