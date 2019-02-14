@@ -214,8 +214,8 @@
 
 	display: block;
 	position: absolute;
-	width: 81px;
-	height: 81px;
+	width: 61px;
+	height: 61px;
 	border-radius: 50px;
 	background-color: rgba(29, 14, 56, .2);
 	bottom: 0;
@@ -248,11 +248,11 @@
 
 .link-circle-inner {
 
-	width: 55px;
-	height: 55px;
+	width: 40px;
+	height: 40px;
 	display: block;
-	top: 13px;
-	left: 13px;
+	top: 11px;
+	left: 11px;
 	background-color: #FF4500;
 	border-radius: 50px;
 	z-index: 2;

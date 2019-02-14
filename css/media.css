@@ -1,4 +1,6 @@
-@media (max-width: 320px) {
+
+/* ----------------MAX-WIDTH (768px) --------*/
+@media (max-width: 768px) /* and (min-width: 1024px) */ {
 
 body {
 		
@@ -8,14 +10,13 @@ body {
 
 header {
 	
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 .bgForTwoSection {
 	
 	display: block;
 	background-image: url(../images/bg-3_comp.jpeg);
-	/* background-size: 50% 50% 25%; */
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -49,7 +50,7 @@ header {
 .menu-list nav {
 	
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 10px;
@@ -58,7 +59,8 @@ header {
 .menu-list nav a {
 	
 	margin-right: 0;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
+	margin-right: 25px;
 	font-size: 18px;
 }
 
@@ -139,23 +141,20 @@ header {
 
 .my-cards {
 	
-	width: 100%;
 	display: flex;
 	justify-content: center;
-	flex-direction: column;
-	align-items: center;
+	flex-direction: row;
+	align-content: space-between;
 }
 
 .flex-card {
 	
-	display: flex;
 	flex-direction: column;
-	justify-content: center;
 }
 
 .card {
 	
-	margin-right: 0;
+	margin-right: 35px;
 }
 
 .card-content {
@@ -230,7 +229,7 @@ header {
 .footer {
 	
 	justify-content: center;
-	flex-direction: column;
+	flex-direction: row;
 }
 
 .footer-wrapper {
@@ -249,312 +248,26 @@ header {
 
 .menu-list-bottom {
 	
-	display: flex;
 	justify-content: center;
-	flex-direction: column;
+	flex-direction: row;
 }
 
 .footer-menu-list {
-	
-	display: flex;
-	flex-direction: column;
-}
-
-.menu-list-bottom nav a {
-	
-	margin-right: 0;
-	margin-bottom: 10px;
-	font-size: 16px;
-}
-
-}
-
-/*------------ MAX-WIDTH ( 320px) ------------*/
-
-
-/*------------ MAX-WIDTH ( 375px) ------------*/
-
-@media (max-width: 375px) {
-
-body {
-		
-	width: 100%;	
-}
-/* ----------- HEADER -------------------*/
-
-header {
-	
-	margin-bottom: 50px;
-}
-
-.bgForTwoSection {
-	
-	display: block;
-	background-image: url(../images/bg-3_comp.jpeg);
-	/* background-size: 50% 50% 25%; */
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.menu {
-
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 15px;
-
-}
-
-.menu-logo {
-	
-	margin-bottom: 25px;
-}
-
-.menu-list {
-	
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.menu-list nav {
-	
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin-bottom: 25px;
-}
-
-.menu-list nav a {
-	
-	margin-right: 0;
-	margin-bottom: 20px;
-	font-size: 18px;
-}
-
-
-/* ------------ END HEADER ------------------*/
-
-
-
-/* ------------- ABOUT - ME --------------------*/
-
-.about-me__description {
-
-	width: 100%;
-	margin-right: 0;
-	margin-bottom: 260px;
-}
-
-.title-hey {
-	
-	text-align: center;
-}
-
-.name-title {
-	
-	text-align: center;
-}
-
-.description-work {
-	width: 100%;
-	text-align: center;
-}
-
-.description-work-site {
-	
-	color: #BDF0FD;
-}
-
-.social-list {
 	
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-}
-
-.social-buttons {
-	
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-right: 5px;
-	margin-left: 5px;
-}
-
-.button-write {
-	
-	margin-right: 0;
-	margin-bottom: 10px;
-}
-
-.link-circle {
-		
-	width: 60px;
-	height: 60px;
-}
-
-.link-circle-inner {
-
-	width: 40px;
-	height: 40px;
-	top: 10px;
-	left: 10px;
-}
-
-.link-circle-inner:active {
-	
-	background-color: #B22222;
-}
-
-
-/* ------------END  ABOUT - ME ----------------*/
-
-
-/* ---------------- MY - CARDS ----------------*/
-
-.my-cards {
-	
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-}
-
-.flex-card {
-	
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
-.card {
-	
-	margin-right: 0;
-}
-
-.card-content {
-	
-	width: 295px;
-	height: 240px;
-}
-
-.card-content__description {
-	
-	width: 295px;
-	height: 61px;
-	margin-bottom: 15px;
-}
-
-.about-title {
-	
-	padding-top: 5px;
-}
-
-.project-title {
-	
-	font-size: 14px;
-	padding-right: 85px;
-}
-
-.year {
-	
-	font-size: 14px;
-}
-
-/* ------------END MY - CARDS ---------------*/
-
-
-/*-------------DESCRIPTION_ABOUT ---------------*/
-
-.description-wrapper {
-	
-	flex-direction: column;
-}
-
-.left-img {
-	
-	margin-right: 0;
-	max-width: 320px;
-	height: 370px;
-	background-image: url(../images/lemur.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% auto;
-	border-radius: 0;
-	margin-bottom: 20px;
-}
-
-.desc-text {
-	
-	width: 90%;
-	text-align: center;
-	padding-bottom: 20px;
-}
-
-
-/*------------END DESCRIPTION_ABOUT ---------*/
-
-#vk_comments {
-	
-	padding: 0;
-}
-
-
-/*------------- FOOTER --------------- */
-
-.footer {
-	
-	justify-content: center;
-	flex-direction: column;
-}
-
-.footer-wrapper {
-
-	justify-content: center;
-	flex-direction: column;
-}
-
-.footer-flex {
-	
-	justify-content: center;
-	margin-right: 0;
-	margin-bottom: 25px;
-	margin-top: 15px;
-}
-
-.menu-list-bottom {
-	
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-}
-
-.footer-menu-list {
-	
-	display: flex;
-	flex-direction: column;
 }
 
 .menu-list-bottom nav a {
 	
-	margin-right: 0;
+	margin-right: 15px;
 	margin-bottom: 10px;
 	font-size: 16px;
 }
 
-
-
 }
 
-
-/*--------------MAX-WIDTh (375px) END ----------/*
+/*------------END MAX-WIDTH ( 768px) ------------*/
 
 /*-------------- MAX-WIDTH (414px) -------------*/
 
@@ -846,3 +559,562 @@ header {
 }
 
 }
+
+/*------------ MAX-WIDTH ( 375px) ------------*/
+
+@media (max-width: 375px) {
+
+body {
+		
+	width: 100%;	
+}
+/* ----------- HEADER -------------------*/
+
+header {
+	
+	margin-bottom: 50px;
+}
+
+.bgForTwoSection {
+	
+	display: block;
+	background-image: url(../images/bg-3_comp.jpeg);
+	/* background-size: 50% 50% 25%; */
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.menu {
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 15px;
+
+}
+
+.menu-logo {
+	
+	margin-bottom: 25px;
+}
+
+.menu-list {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-list nav {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.menu-list nav a {
+	
+	margin-right: 0;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+
+/* ------------ END HEADER ------------------*/
+
+
+
+/* ------------- ABOUT - ME --------------------*/
+
+.about-me__description {
+
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 260px;
+}
+
+.title-hey {
+	
+	text-align: center;
+}
+
+.name-title {
+	
+	text-align: center;
+}
+
+.description-work {
+	width: 100%;
+	text-align: center;
+}
+
+.description-work-site {
+	
+	color: #BDF0FD;
+}
+
+.social-list {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.social-buttons {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.button-write {
+	
+	margin-right: 0;
+	margin-bottom: 10px;
+}
+
+.link-circle {
+		
+	width: 60px;
+	height: 60px;
+}
+
+.link-circle-inner {
+
+	width: 40px;
+	height: 40px;
+	top: 10px;
+	left: 10px;
+}
+
+.link-circle-inner:active {
+	
+	background-color: #B22222;
+}
+
+
+/* ------------END  ABOUT - ME ----------------*/
+
+
+/* ---------------- MY - CARDS ----------------*/
+
+.my-cards {
+	
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.flex-card {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.card {
+	
+	margin-right: 0;
+}
+
+.card-content {
+	
+	width: 295px;
+	height: 240px;
+}
+
+.card-content__description {
+	
+	width: 295px;
+	height: 61px;
+	margin-bottom: 15px;
+}
+
+.about-title {
+	
+	padding-top: 5px;
+}
+
+.project-title {
+	
+	font-size: 14px;
+	padding-right: 85px;
+}
+
+.year {
+	
+	font-size: 14px;
+}
+
+/* ------------END MY - CARDS ---------------*/
+
+
+/*-------------DESCRIPTION_ABOUT ---------------*/
+
+.description-wrapper {
+	
+	flex-direction: column;
+}
+
+.left-img {
+	
+	margin-right: 0;
+	max-width: 320px;
+	height: 370px;
+	background-image: url(../images/lemur.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	border-radius: 0;
+	margin-bottom: 20px;
+}
+
+.desc-text {
+	
+	width: 90%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+/*------------END DESCRIPTION_ABOUT ---------*/
+
+#vk_comments {
+	
+	padding: 0;
+}
+
+
+/*------------- FOOTER --------------- */
+
+.footer {
+	
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-wrapper {
+
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-flex {
+	
+	justify-content: center;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+
+.menu-list-bottom {
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-menu-list {
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.menu-list-bottom nav a {
+	
+	margin-right: 0;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+
+
+}
+
+
+/*--------------MAX-WIDTh (375px) END ----------/*
+
+/*-------------MAX-WIDTH (320xp) ---------------*/
+
+@media (max-width: 320px) {
+
+body {
+		
+	width: 100%;	
+}
+/* ----------- HEADER -------------------*/
+
+header {
+	
+	margin-bottom: 50px;
+}
+
+.bgForTwoSection {
+	
+	display: block;
+	background-image: url(../images/bg-3_comp.jpeg);
+	/* background-size: 50% 50% 25%; */
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.menu {
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 15px;
+
+}
+
+.menu-logo {
+	
+	margin-bottom: 25px;
+}
+
+.menu-list {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-list nav {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.menu-list nav a {
+	
+	margin-right: 0;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+
+/* ------------ END HEADER ------------------*/
+
+
+
+/* ------------- ABOUT - ME --------------------*/
+
+.about-me__description {
+
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 260px;
+}
+
+.title-hey {
+	
+	text-align: center;
+}
+
+.name-title {
+	
+	text-align: center;
+}
+
+.description-work {
+	width: 100%;
+	text-align: center;
+}
+
+.social-list {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.social-buttons {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.button-write {
+	
+	margin-right: 0;
+	margin-bottom: 10px;
+}
+
+.link-circle {
+		
+	width: 60px;
+	height: 60px;
+}
+
+.link-circle-inner {
+
+	width: 40px;
+	height: 40px;
+	top: 10px;
+	left: 10px;
+}
+
+.link-circle-inner:active {
+	
+	background-color: #B22222;
+}
+
+/* ------------END  ABOUT - ME ----------------*/
+
+
+/* ---------------- MY - CARDS ----------------*/
+
+.my-cards {
+	
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.flex-card {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.card {
+	
+	margin-right: 0;
+}
+
+.card-content {
+	
+	width: 295px;
+	height: 240px;
+}
+
+.card-content__description {
+	
+	width: 295px;
+	height: 61px;
+	margin-bottom: 15px;
+}
+
+.about-title {
+	
+	padding-top: 5px;
+}
+
+.project-title {
+	
+	font-size: 14px;
+	padding-right: 85px;
+}
+
+.year {
+	
+	font-size: 14px;
+}
+
+/* ------------END MY - CARDS ---------------*/
+
+
+/*-------------DESCRIPTION_ABOUT ---------------*/
+
+.description-wrapper {
+	
+	flex-direction: column;
+}
+
+.left-img {
+	
+	margin-right: 0;
+	max-width: 320px;
+	height: 370px;
+	background-image: url(../images/lemur.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	border-radius: 0;
+	margin-bottom: 20px;
+}
+
+.desc-text {
+	
+	width: 90%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+/*------------END DESCRIPTION_ABOUT ---------*/
+
+#vk_comments {
+	
+	padding: 0;
+}
+
+
+/*------------- FOOTER --------------- */
+
+.footer {
+	
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-wrapper {
+
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-flex {
+	
+	justify-content: center;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+
+.menu-list-bottom {
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-menu-list {
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.menu-list-bottom nav a {
+	
+	margin-right: 0;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+}
+
+/*------------END MAX-WIDTH ( 320px) ------------*/
