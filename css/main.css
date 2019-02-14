@@ -1,3 +1,5 @@
+/*----------------- MAIN ---------------------------*/
+
 * {
 
 	box-sizing: border-box;
@@ -108,18 +110,2033 @@ a {
 	background-color: #2C7174;
 }
 
+/*------------------- END MAIN --------------------------*/
 
-/* ------------- MEDIA -----------------*/
+/*-------------------- HEADER ---------------------------*/
 
-/*---------- MEDIA for 320px ----------*/
+header {
 
-/* @media (max-width: 319px) {
-	
-	.bgForTwoSection {
-	
-	background-image: url(../images/bg-3_comp.jpeg);
-	background-size: cover;
-	background-repeat: no-repeat;
+	padding-top: 18px;
+	color: #fff;
+	margin-bottom: 160px;
 }
 
+.menu {
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	max-width: 1172px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 15px;
+
+}
+
+.menu-logo {
+
+	display: flex;
+	align-items: center;
+}
+
+.avatar {
+
+	width: 57px;
+	height: 57px;
+	border-radius: 50%;
+	background-color: transparent;
+	background-image: url(../images/logo.png);
+	background-size: cover;
+}
+
+.description {
+
+	margin-left: 9px;
+}
+
+.name {
+
+	display: block;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 15px;
+
+}
+
+.small-description {
+	
+	color: #CFC8D6;
+}
+
+.menu-list {
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+	font-weight: 800;
+	line-height: 16.84px;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	list-style-type: none; 
+	
+	
+}
+
+.menu-list a {
+
+	margin-right: 34px;
+}
+
+.menu-list-bottom {
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+	font-weight: 800;
+	line-height: 16.84px;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	list-style-type: none; 
+	
+	
+}
+
+.menu-list-bottom a {
+
+	margin-right: 34px;
+}
+
+.menu-button {
+
+	color: #fff;
+	font-size: 14px;
+	font-weight: 800;
+	line-height: 16.84px;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+	border-radius: 19px;
+	border: 2px solid #fff;
+	padding: 13px 23px;
+	background-color: transparent;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+
+.menu-button:hover {
+
+	background-color: #1D0E38;
+	color: #fff;
+	box-shadow: 0px 0px 8px 2px #FE012E;
+	border: 2px solid transparent;
+}
+.menu-button:focus {
+
+	outline: none;
+}
+
+.menu-button:active {
+	
+   top: .1em;
+   left: .1em;
+   box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+
+}
+
+/*--------------------END HEADER -----------------------*/
+
+/*--------------------ABOUT - ME ------------------------*/
+
+
+.about-me {
+
+	position: relative;
+	margin-bottom: 91px;
+	color: #fff;
+}
+
+
+.about-me__description {
+
+	width: 50%;
+	margin-right: 318px;
+	margin-bottom: 260px;
+}
+
+.welcome-title {
+
+	padding-bottom: 26px;
+}
+
+.title-hey {
+
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 15px;
+	padding-bottom: 15px;
+}
+
+.name-title {
+
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 48px;
+	padding-bottom: 8px;
+}
+
+.description-work {
+
+	border-bottom: 2px solid black;
+	width: 60%;
+	padding-bottom: 5px;
+}
+
+.description-work-site {
+
+	color: #CFC8D6;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 15px;
+}
+
+.social-list {
+	display: flex;
+	position: relative;
+	margin-bottom: 25px;
+}
+
+.social {
+	display: flex;
+	width: 10%;
+	height: 25px;
+	border-radius: 15%;
+	justify-content: center;
+	align-items: center;
+	margin-right: 20px;
+	font-size: 18px;
+}
+
+.vk {
+	
+	background-color: #4d75a2;
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+}
+
+.vk:hover {
+	
+	background-color: #6E25DC;
+}
+
+.vk:active {
+	
+	transform: scale(0.95);
+}
+
+.inst {
+	
+	background-color: #4169E1;
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+}
+
+.inst:hover {
+	
+	background-color: #345D9A;
+	color: #38CADB;
+}
+
+.inst:active {
+	
+	transform: scale(0.95);
+}
+
+.ggl {
+	
+	background-color: #F80E0E;
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+}
+
+.ggl:hover {
+	
+	background-color: #AC0909;
+}
+
+.ggl:active {
+	
+	transform: scale(0.95);
+}
+
+.github {
+	
+	background-color: #000;
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+}
+
+.github:hover {
+	
+	background-color: #2F2929;
+}
+
+.github:active {
+	
+	transform: scale(0.95);
+}
+
+.social-buttons {
+
+	display: flex;
+}
+
+.button-write {
+
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 15px;
+	letter-spacing: 0.8px;
+	padding: 20px 34px;
+	border-radius: 25px;
+	margin-right: 17px;
+	cursor: pointer;
+	background-color: #1D0E38;
+	border: 2px solid #101214;
+	transition: all 0.5s ease-in-out;
+}
+
+.button-write:hover {
+	
+	background-color: #E46121;
+	box-shadow: 0px 0px 8px 2px #FE012E;
+}
+
+.button-write:focus {
+
+	outline: none;
+}
+
+.button-write:active {
+	
+  top: .1em;
+  left: .1em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+
+.button-about_me {
+
+	color: #000;
+	background-color: #EFF3F4;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 15px;
+	letter-spacing: 0.8px;
+	border-radius: 25px;
+	padding: 20px 43px;
+	border:none;
+	outline: none;
+	cursor: pointer;
+	border: 2px solid #101214;
+	transition: all 0.5s ease-in-out;
+}
+
+.button-about_me:hover {
+
+	background-color: #0000FF;
+	color: #fff;
+	box-shadow: 0px 0px 8px 2px #FE012E;
+}
+
+.button-about_me:focus {
+
+	outline: none;
+}
+
+.button-about_me:active {
+
+   top: .1em;
+   left: .1em;
+   box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+
+.link-circle {
+
+	display: block;
+	position: absolute;
+	width: 61px;
+	height: 61px;
+	border-radius: 50px;
+	background-color: rgba(29, 14, 56, .2);
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 50%);
+}
+
+.link-circle:hover {
+	
+	background-color: rgba(29, 14, 56, .7);
+}
+
+
+/* @media (min-width: 700px) {
+
+	.link-circle {
+		
+		transform: translate(-50%, 20%);
+	}
+}
+
+
+@media (min-width: 1140px) {
+
+	.link-circle {
+		
+		transform: translate(-50%, 0);
+	}
 } */
+
+.link-circle-inner {
+
+	width: 40px;
+	height: 40px;
+	display: block;
+	top: 11px;
+	left: 11px;
+	background-color: #FF4500;
+	border-radius: 50px;
+	z-index: 2;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../images/arrow-down.svg");
+}
+
+/*--------------- END ABOUT-ME ----------------*/
+
+/*---------------- MY - CARDS -----------------*/
+
+.my-cards {
+	
+	width: 100%;
+	max-width: 1173px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 177px;
+}
+
+.flex-card {
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	margin-bottom: 41px;
+}
+
+.card {
+	
+	width: 32%;
+	margin-right: 31px;
+}
+
+.card-content {
+	
+	display: block;
+	width: 370px;
+	height: 300px;
+	border-radius: 10px 10px 0 0;
+	background-color: #717072;
+	box-shadow: 0px 0px 0.5px 0.5px #808080;
+}
+
+.card-content__description {
+
+	width: 370px;
+	height: 71px;
+	border-radius: 0 0 10px 10px;
+	background-color: #ffffff;
+	border: 1px solid #808080;
+	box-shadow: 0px 0px 0.5px 0.5px #808080;
+	padding-bottom: 19px;
+	padding-left: 13px;
+}
+
+.category {
+
+	color: #2b2a2c;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 15px;
+	letter-spacing: 0.6px;
+}
+
+.about-title {
+
+	padding-top: 12px;
+}
+
+.project-title {
+
+	color: #2b2a2c;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 15px;
+	text-transform: uppercase;
+	padding-right: 129px;
+}
+
+.year {
+
+	color: #2b2a2c;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 15px;
+}
+
+/*--------------END MY-CARDS ------------------*/
+
+/*--------------- DESCRIPTION_ABOUT-------------*/
+
+.description_about {
+
+	margin-bottom: 105px;
+}
+
+.description-wrapper {
+	
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.left-img {
+
+	width: 542px;
+	height: 606px;
+	border-radius: 10%;
+	background-image: url(../images/lemur.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-right: 61px;
+
+}
+
+.desc-text {
+
+	width: 50%;
+}
+
+.title {
+
+	color: #2b2a2c;
+	font-size: 45px;
+	font-weight: 800;
+	line-height: 15px;
+	text-transform: uppercase;
+	margin-bottom: 75px;
+}
+
+.desc-text__about {
+
+	color: #717072;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 24px;
+	margin-bottom: 53px;
+}
+
+#vk_comments {
+	
+	padding: 50px 200px;
+}
+
+/*----------END DESCRIPTION_ABOUT ---------------*/
+
+/*-------------------FOOTER ------------------*/
+
+.footer {
+	
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-around;
+	background-color: #2b2a2c;
+}
+
+.footer-wrapper {
+	
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer-flex {
+	
+	max-width: 1173px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-right: 100px;
+	
+}
+
+.copyright {
+
+	color: #8d8d8e;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.stick {
+	
+	display: block;
+	width: 1px;
+	height: 21px;
+	background-color: #413f41;
+}
+
+.menu-list-bottom {
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #8D8D8E;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 15px;
+}
+
+.menu-list-bottom a {
+
+	margin-right: 25px;
+	color: #8D8D8E;
+}
+
+.menu-button-bottom {
+
+	border-radius: 16px;
+	border: 1px solid #8d8d8e;
+	color: #8d8d8e;
+	font-size: 14px;
+	font-weight: 800;
+	line-height: 16.84px;
+	letter-spacing: 0.7px;
+	padding: 11px 24px;
+	background-color: #2b2a2c;
+	margin-bottom: 28px;
+	margin-top: 23px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+
+.menu-button-bottom:hover {
+
+	background-color: #1D0E38;
+	color: #fff;
+	box-shadow: 0px 0px 8px 4px #FE012E;
+}
+
+.menu-button-bottom:focus {
+
+	outline: none;
+}
+
+.menu-button-bottom:active {
+	
+   top: .1em;
+   left: .1em;
+   box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+
+/*---------------END FOOTER -----------------*/
+
+/*-------------- BEGIN MEDIA QUARIES ---------*/
+/*********************************************
+**********************************************
+***********************************************
+**********************************************/
+
+/* ----------------MAX-WIDTH (1024px) --------*/
+@media (max-width: 1024px) /* and (min-width: 1024px) */ {
+
+body {
+		
+	width: 100%;	
+}
+
+.container {
+
+	width: 100%;
+	max-width: 820px;
+}
+/* ----------- HEADER -------------------*/
+
+header {
+	
+	margin-bottom: 200px;
+}
+
+.bgForTwoSection {
+	
+	display: block;
+	background-image: url(../images/bg-3_comp.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.menu {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 15px;
+}
+
+.menu-list nav {
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+	margin-left: 25px;
+}
+
+.menu-list nav a {
+	
+	margin-right: 25px;
+	font-size: 18px;
+}
+
+
+/* ------------ END HEADER ------------------*/
+
+
+
+/* ------------- ABOUT - ME --------------------*/
+
+.about-me__description {
+
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 260px;
+}
+
+.title-hey {
+	
+	text-align: center;
+}
+
+.name-title {
+	
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.description-work {
+	width: 100%;
+	text-align: center;
+}
+
+.social-list {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.social-buttons {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.button-write {
+	
+	margin-right: 0;
+	margin-bottom: 10px;
+}
+
+.link-circle {
+		
+	width: 60px;
+	height: 60px;
+}
+
+.link-circle-inner {
+
+	width: 40px;
+	height: 40px;
+	top: 10px;
+	left: 10px;
+}
+
+.link-circle-inner:active {
+	
+	background-color: #B22222;
+}
+
+/* ------------END  ABOUT - ME ----------------*/
+
+
+/* ---------------- MY - CARDS ----------------*/
+
+.my-cards {
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	/* align-content: space-between; */
+}
+
+.flex-card {
+	
+	flex-direction: column;
+}
+
+.card {
+	
+	margin-right: 35px;
+}
+
+.card-content {
+	
+	width: 295px;
+	height: 240px;
+}
+
+.card-content__description {
+	
+	width: 295px;
+	height: 61px;
+	margin-bottom: 15px;
+}
+
+.about-title {
+	
+	padding-top: 5px;
+}
+
+.project-title {
+	
+	font-size: 14px;
+	padding-right: 85px;
+}
+
+.year {
+	
+	font-size: 14px;
+}
+
+/* ------------END MY - CARDS ---------------*/
+
+
+/*-------------DESCRIPTION_ABOUT ---------------*/
+
+.description-wrapper {
+	
+	flex-direction: column;
+}
+
+.left-img {
+	
+	margin-right: 0;
+	max-width: 320px;
+	height: 370px;
+	background-image: url(../images/lemur.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	border-radius: 0;
+	margin-bottom: 20px;
+}
+
+.desc-text {
+	
+	width: 90%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+/*------------END DESCRIPTION_ABOUT ---------*/
+
+#vk_comments {
+	
+	padding: 0;
+}
+
+
+/*------------- FOOTER --------------- */
+
+.footer {
+	
+	justify-content: center;
+	flex-direction: row;
+}
+
+.footer-wrapper {
+
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-flex {
+	
+	justify-content: center;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+
+.menu-list-bottom {
+	
+	justify-content: center;
+	flex-direction: row;
+}
+
+.footer-menu-list {
+	
+	display: flex;
+	flex-direction: row;
+}
+
+.menu-list-bottom nav a {
+	
+	margin-right: 15px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+}
+
+/*------------END MAX-WIDTH ( 1024px) ------------*/
+
+
+/* ----------------MAX-WIDTH (768px) --------*/
+@media (max-width: 768px) /* and (min-width: 1024px) */ {
+
+body {
+		
+	width: 100%;	
+}
+/* ----------- HEADER -------------------*/
+
+header {
+	
+	margin-bottom: 100px;
+}
+
+.bgForTwoSection {
+	
+	display: block;
+	background-image: url(../images/bg-3_comp.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.menu {
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 15px;
+
+}
+
+.menu-logo {
+	
+	margin-bottom: 25px;
+}
+
+.menu-list {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-list nav {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.menu-list nav a {
+	
+	margin-right: 0;
+	margin-bottom: 30px;
+	margin-right: 25px;
+	font-size: 18px;
+}
+
+
+/* ------------ END HEADER ------------------*/
+
+
+
+/* ------------- ABOUT - ME --------------------*/
+
+.about-me__description {
+
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 260px;
+}
+
+.title-hey {
+	
+	text-align: center;
+}
+
+.name-title {
+	
+	text-align: center;
+}
+
+.description-work {
+	width: 100%;
+	text-align: center;
+}
+
+.social-list {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.social-buttons {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.button-write {
+	
+	margin-right: 0;
+	margin-bottom: 10px;
+}
+
+.link-circle {
+		
+	width: 60px;
+	height: 60px;
+}
+
+.link-circle-inner {
+
+	width: 40px;
+	height: 40px;
+	top: 10px;
+	left: 10px;
+}
+
+.link-circle-inner:active {
+	
+	background-color: #B22222;
+}
+
+/* ------------END  ABOUT - ME ----------------*/
+
+
+/* ---------------- MY - CARDS ----------------*/
+
+.my-cards {
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-content: space-between;
+}
+
+.flex-card {
+	
+	flex-direction: column;
+}
+
+.card {
+	
+	margin-right: 35px;
+}
+
+.card-content {
+	
+	width: 295px;
+	height: 240px;
+}
+
+.card-content__description {
+	
+	width: 295px;
+	height: 61px;
+	margin-bottom: 15px;
+}
+
+.about-title {
+	
+	padding-top: 5px;
+}
+
+.project-title {
+	
+	font-size: 14px;
+	padding-right: 85px;
+}
+
+.year {
+	
+	font-size: 14px;
+}
+
+/* ------------END MY - CARDS ---------------*/
+
+
+/*-------------DESCRIPTION_ABOUT ---------------*/
+
+.description-wrapper {
+	
+	flex-direction: column;
+}
+
+.left-img {
+	
+	margin-right: 0;
+	max-width: 320px;
+	height: 370px;
+	background-image: url(../images/lemur.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	border-radius: 0;
+	margin-bottom: 20px;
+}
+
+.desc-text {
+	
+	width: 90%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+/*------------END DESCRIPTION_ABOUT ---------*/
+
+#vk_comments {
+	
+	padding: 0;
+}
+
+
+/*------------- FOOTER --------------- */
+
+.footer {
+	
+	justify-content: center;
+	flex-direction: row;
+}
+
+.footer-wrapper {
+
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-flex {
+	
+	justify-content: center;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+
+.menu-list-bottom {
+	
+	justify-content: center;
+	flex-direction: row;
+}
+
+.footer-menu-list {
+	
+	display: flex;
+	flex-direction: row;
+}
+
+.menu-list-bottom nav a {
+	
+	margin-right: 15px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+}
+
+/*------------END MAX-WIDTH ( 768px) ------------*/
+
+/*-------------- MAX-WIDTH (414px) -------------*/
+
+@media (max-width: 414px) {
+
+body {
+		
+	width: 100%;	
+}
+/* ----------- HEADER -------------------*/
+
+header {
+	
+	margin-bottom: 100px;
+}
+
+.bgForTwoSection {
+	
+	display: block;
+	background-image: url(../images/bg-3_comp.jpeg);
+	/* background-size: 50% 50% 25%; */
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.menu {
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menu-logo {
+	
+	margin-bottom: 35px;
+}
+
+.menu-list {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-list nav {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.menu-list nav a {
+	
+	margin-right: 0;
+	margin-bottom: 15px;
+	font-size: 24px;
+}
+
+.menu-button-bottom {
+	
+	padding: 13px 45px;
+}
+
+/* ------------ END HEADER ------------------*/
+
+
+
+/* ------------- ABOUT - ME --------------------*/
+
+.about-me__description {
+
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 260px;
+}
+
+.title-hey {
+	
+	text-align: center;
+}
+
+.name-title {
+	
+	text-align: center;
+}
+
+.description-work {
+	width: 100%;
+	text-align: center;
+}
+
+.description-work-site {
+	
+	color: #BDF0FD;
+}
+
+.social-list {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.social-buttons {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.button-write {
+	
+	margin-right: 0;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.button-about_me {
+	
+	font-size: 20px;
+}
+
+.link-circle {
+		
+	width: 70px;
+	height: 70px;
+}
+
+.link-circle-inner {
+
+	width: 48px;
+	height: 48px;
+	top: 10px;
+	left: 12px;
+}
+
+.link-circle-inner:active {
+	
+	background-color: #B22222;
+}
+
+/* ------------END  ABOUT - ME ----------------*/
+
+
+/* ---------------- MY - CARDS ----------------*/
+.my-cards {
+	
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.flex-card {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	
+	margin-right: 0;
+	width: 100%;
+}
+
+.card-content {
+	
+	width: 340px;
+	height: 240px;
+}
+
+.card-content__description {
+	
+	width: 340px;
+	height: 61px;
+	margin-bottom: 15px;
+}
+
+.about-title {
+	
+	padding-top: 5px;
+}
+
+.project-title {
+	
+	font-size: 14px;
+	padding-right: 105px;
+}
+
+.year {
+	
+	font-size: 14px;
+}
+
+/* ------------END MY - CARDS ---------------*/
+
+
+/*-------------DESCRIPTION_ABOUT ---------------*/
+
+.description-wrapper {
+	
+	flex-direction: column;
+}
+
+.left-img {
+	
+	margin-right: 0;
+	max-width: 340px;
+	height: 370px;
+	background-image: url(../images/lemur.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.desc-text {
+	
+	width: 90%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+/*------------END DESCRIPTION_ABOUT ---------*/
+
+#vk_comments {
+	
+	padding: 0;
+}
+
+
+/*------------- FOOTER --------------- */
+
+.footer {
+	
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-wrapper {
+
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-flex {
+	
+	justify-content: center;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+
+.menu-list-bottom {
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-menu-list {
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.menu-list-bottom nav a {
+	
+	margin-right: 0;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+.menu-button-bottom {
+	
+	padding: 13px 45px;
+}
+
+}
+
+/*------------ MAX-WIDTH ( 375px) ------------*/
+
+@media (max-width: 375px) {
+
+body {
+		
+	width: 100%;	
+}
+/* ----------- HEADER -------------------*/
+
+header {
+	
+	margin-bottom: 50px;
+}
+
+.bgForTwoSection {
+	
+	display: block;
+	background-image: url(../images/bg-3_comp.jpeg);
+	/* background-size: 50% 50% 25%; */
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.menu {
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 15px;
+
+}
+
+.menu-logo {
+	
+	margin-bottom: 25px;
+}
+
+.menu-list {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-list nav {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.menu-list nav a {
+	
+	margin-right: 0;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+
+/* ------------ END HEADER ------------------*/
+
+
+
+/* ------------- ABOUT - ME --------------------*/
+
+.about-me__description {
+
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 260px;
+}
+
+.title-hey {
+	
+	text-align: center;
+}
+
+.name-title {
+	
+	text-align: center;
+}
+
+.description-work {
+	width: 100%;
+	text-align: center;
+}
+
+.description-work-site {
+	
+	color: #BDF0FD;
+}
+
+.social-list {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.social-buttons {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.button-write {
+	
+	margin-right: 0;
+	margin-bottom: 10px;
+}
+
+.link-circle {
+		
+	width: 60px;
+	height: 60px;
+}
+
+.link-circle-inner {
+
+	width: 40px;
+	height: 40px;
+	top: 10px;
+	left: 10px;
+}
+
+.link-circle-inner:active {
+	
+	background-color: #B22222;
+}
+
+
+/* ------------END  ABOUT - ME ----------------*/
+
+
+/* ---------------- MY - CARDS ----------------*/
+
+.my-cards {
+	
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.flex-card {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.card {
+	
+	margin-right: 0;
+}
+
+.card-content {
+	
+	width: 295px;
+	height: 240px;
+}
+
+.card-content__description {
+	
+	width: 295px;
+	height: 61px;
+	margin-bottom: 15px;
+}
+
+.about-title {
+	
+	padding-top: 5px;
+}
+
+.project-title {
+	
+	font-size: 14px;
+	padding-right: 85px;
+}
+
+.year {
+	
+	font-size: 14px;
+}
+
+/* ------------END MY - CARDS ---------------*/
+
+
+/*-------------DESCRIPTION_ABOUT ---------------*/
+
+.description-wrapper {
+	
+	flex-direction: column;
+}
+
+.left-img {
+	
+	margin-right: 0;
+	max-width: 320px;
+	height: 370px;
+	background-image: url(../images/lemur.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	border-radius: 0;
+	margin-bottom: 20px;
+}
+
+.desc-text {
+	
+	width: 90%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+/*------------END DESCRIPTION_ABOUT ---------*/
+
+#vk_comments {
+	
+	padding: 0;
+}
+
+
+/*------------- FOOTER --------------- */
+
+.footer {
+	
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-wrapper {
+
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-flex {
+	
+	justify-content: center;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+
+.menu-list-bottom {
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-menu-list {
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.menu-list-bottom nav a {
+	
+	margin-right: 0;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+
+
+}
+
+
+/*--------------MAX-WIDTh (375px) END ----------/*
+
+/*-------------MAX-WIDTH (320xp) ---------------*/
+
+@media (max-width: 320px) {
+
+body {
+		
+	width: 100%;	
+}
+/* ----------- HEADER -------------------*/
+
+header {
+	
+	margin-bottom: 50px;
+}
+
+.bgForTwoSection {
+	
+	display: block;
+	background-image: url(../images/bg-3_comp.jpeg);
+	/* background-size: 50% 50% 25%; */
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.menu {
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 15px;
+
+}
+
+.menu-logo {
+	
+	margin-bottom: 25px;
+}
+
+.menu-list {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-list nav {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.menu-list nav a {
+	
+	margin-right: 0;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+
+/* ------------ END HEADER ------------------*/
+
+
+
+/* ------------- ABOUT - ME --------------------*/
+
+.about-me__description {
+
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 260px;
+}
+
+.title-hey {
+	
+	text-align: center;
+}
+
+.name-title {
+	
+	text-align: center;
+}
+
+.description-work {
+	width: 100%;
+	text-align: center;
+}
+
+.social-list {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.social-buttons {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.button-write {
+	
+	margin-right: 0;
+	margin-bottom: 10px;
+}
+
+.link-circle {
+		
+	width: 60px;
+	height: 60px;
+}
+
+.link-circle-inner {
+
+	width: 40px;
+	height: 40px;
+	top: 10px;
+	left: 10px;
+}
+
+.link-circle-inner:active {
+	
+	background-color: #B22222;
+}
+
+/* ------------END  ABOUT - ME ----------------*/
+
+
+/* ---------------- MY - CARDS ----------------*/
+
+.my-cards {
+	
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.flex-card {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.card {
+	
+	margin-right: 0;
+}
+
+.card-content {
+	
+	width: 295px;
+	height: 240px;
+}
+
+.card-content__description {
+	
+	width: 295px;
+	height: 61px;
+	margin-bottom: 15px;
+}
+
+.about-title {
+	
+	padding-top: 5px;
+}
+
+.project-title {
+	
+	font-size: 14px;
+	padding-right: 85px;
+}
+
+.year {
+	
+	font-size: 14px;
+}
+
+/* ------------END MY - CARDS ---------------*/
+
+
+/*-------------DESCRIPTION_ABOUT ---------------*/
+
+.description-wrapper {
+	
+	flex-direction: column;
+}
+
+.left-img {
+	
+	margin-right: 0;
+	max-width: 320px;
+	height: 370px;
+	background-image: url(../images/lemur.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	border-radius: 0;
+	margin-bottom: 20px;
+}
+
+.desc-text {
+	
+	width: 90%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+/*------------END DESCRIPTION_ABOUT ---------*/
+
+#vk_comments {
+	
+	padding: 0;
+}
+
+
+/*------------- FOOTER --------------- */
+
+.footer {
+	
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-wrapper {
+
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-flex {
+	
+	justify-content: center;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+
+.menu-list-bottom {
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer-menu-list {
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.menu-list-bottom nav a {
+	
+	margin-right: 0;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+}
+
+/*------------END MAX-WIDTH ( 320px) ------------*/
