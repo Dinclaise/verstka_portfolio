@@ -473,30 +473,13 @@ header {
 	bottom: 0;
 	left: 50%;
 	transform: translate(-50%, 50%);
+	transition: all 0.4s ease-in-out;
 }
 
 .link-circle:hover {
 	
 	background-color: rgba(29, 14, 56, .7);
 }
-
-
-/* @media (min-width: 700px) {
-
-	.link-circle {
-		
-		transform: translate(-50%, 20%);
-	}
-}
-
-
-@media (min-width: 1140px) {
-
-	.link-circle {
-		
-		transform: translate(-50%, 0);
-	}
-} */
 
 .link-circle-inner {
 
@@ -512,6 +495,12 @@ header {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-image: url("../images/arrow-down.svg");
+	transition: all 0.2s ease-in-out;
+}
+
+.link-circle-inner:hover {
+	
+	transform: scale(0.96, 0.96)
 }
 
 /*--------------- END ABOUT-ME ----------------*/
