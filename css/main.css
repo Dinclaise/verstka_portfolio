@@ -390,6 +390,7 @@ header {
 .social-buttons {
 
 	display: flex;
+	text-align: center;
 }
 
 .button-write {
@@ -521,13 +522,16 @@ header {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
-	margin-bottom: 41px;
+	margin-bottom: 65px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .card {
 	
-	width: 32%;
-	margin-right: 31px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .card-content {
@@ -892,11 +896,6 @@ header {
 	flex-direction: column;
 }
 
-.card {
-	
-	margin-right: 35px;
-}
-
 .card-content {
 	
 	width: 295px;
@@ -1163,21 +1162,16 @@ header {
 	flex-direction: column;
 }
 
-.card {
-	
-	margin-right: 35px;
-}
-
 .card-content {
 	
-	width: 295px;
-	height: 240px;
+	width: 245px;
+	height: 220px;
 }
 
 .card-content__description {
 	
-	width: 295px;
-	height: 61px;
+	width: 245px;
+	height: 51px;
 	margin-bottom: 15px;
 }
 
@@ -1189,7 +1183,7 @@ header {
 .project-title {
 	
 	font-size: 14px;
-	padding-right: 85px;
+	padding-right: 23px;
 }
 
 .year {
