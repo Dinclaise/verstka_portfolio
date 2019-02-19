@@ -54,4 +54,4 @@ mail($admin_email, adopt($form_subject), $message, $headers );
 // Saving user data in file
 send_user_data_in_txt_file ($message);
 
-// header('location: ../thankyou.html');
+header('location: ../thankyou.html');

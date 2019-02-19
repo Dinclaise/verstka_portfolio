@@ -23,13 +23,10 @@ $('a.open-modal').click(function(event) {
 
 
 
-$(document).ready(function() {
+    // $('.submit__button').click(fucntion() {
 
-    $('.submit__button').click(fucntion() {
+    //   $('.contact_form').hide();
 
-      $('.contact_form').hide();
+    //   $('.thankyou').fadeIn();
 
-      $('.thankyou').fadeIn();
-
-    });
-});
+    // });

@@ -476,9 +476,10 @@ header {
 ***************************************************************************/
 
 .thankyou {
-	display: none;
+
 	text-align: center;
 	font-size: 18px;
+	margin-bottom: 250px;
 }
 
 .thankyou h1 {
@@ -489,6 +490,42 @@ header {
 .thankyou p {
 	font-size: 18px;
 }
+
+.button_return {
+	
+	color: #000;
+	background-color: #EFF3F4;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 15px;
+	letter-spacing: 0.8px;
+	border-radius: 25px;
+	padding: 3px 30px;
+	cursor: pointer;
+	border: 2px solid #101214;
+	transition: all 0.5s ease-in-out;
+}
+
+.button_return:hover {
+
+	background-color: #412525;
+	color: #fff;
+	box-shadow: 0px 0px 8px 2px #FE012E;
+}
+
+.button_return:focus {
+
+	outline: none;
+}
+
+.button_return:active {
+
+   top: .1em;
+   left: .1em;
+   box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+
+
 
 /* *********************************************
 ************ END THANKYOU ************************** */		
