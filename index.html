@@ -84,7 +84,7 @@
 					</div>
 
 					<div class="social-list wow fadeInUp">
-						<a href="#" class="social vk">
+						<a href="https://vk.com/id497206922" class="social vk">
 							<i class="fab fa-vk"></i>
 						</a>
 						<a href="#" class="social inst">
@@ -93,21 +93,55 @@
 						<a href="#" class="social ggl">
 							<i class="fab fa-google"></i>
 						</a>
-						<a href="#" class="social github">
+						<a href="https://github.com/Dinclaise" class="social github">
 							<i class="fab fa-github"></i>
 						</a>
 					</div>
 					<div class="social-buttons wow fadeInUp">
 						<a href="#ex1" rel="modal:open"  class="button-write open-modal">Написать мне</a>
 						<div id="ex1" class="modal wow fadeIn">
-						  <p>Thanks for clicking. That felt good.</p>
-						  <a href="#" rel="modal:close">Close</a>
+
+ 	<form action="php/mail.php" class="contact_form" method="POST">
+
+					<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="Сайт Портфолио">
+					<input type="hidden" name="admin_email" value="aanohin98@gmail.com">
+					<input type="hidden" name="email_from" value="info@ochpoch.zzz.com.ua">
+					<input type="hidden" name="form_subject" value="Сообщение с сайта">
+					<!-- END Hidden Required Fields -->
+					
+					<h2>Заполните заявку</h2>
+					<div class="subtitle">и я свяжусь с вами</div>
+					
+					<label for="f_name">Ваше имя:</label>
+					<input type="text" id="f_name" name="Имя" placeholder="">
+
+					<label for="f_email">Ваш email:</label>
+					<input type="text" id="f_email" name="E-mail" placeholder="">
+
+					<label for="f_email">Ваш адрес:</label>
+					<input type="text" id="f_email" name="address" placeholder="">
+
+					<label for="f_name">Сообщение:</label>
+					<textarea name="message" id="" cols="30" rows="10"></textarea>
+
+					<input class="submit__button" type="submit" value="Отправить заявку">
+
+	</form>
+
+					<div class="thankyou">
+						<h1>Форма успешно отправлена!</h1>
+						<p>Ваша форма успешно отправлена.</p>
+						<p><a href="index.html">Вернуться назад</a></p>
+					</div>
+
+						  <a class="close-button" href="#" rel="modal:close">Close</a>
 						</div>
 
 						<a href="#ex2" rel="modal:open" class="button-about_me open-modal">Моё резюме</a>
 						<div id="ex2" class="modal wow fadeIn">
-						  <p>Thanks for clicking. That felt good.</p>
-						  <a href="#" rel="modal:close">Close</a>
+						  <p>Coming SOON.</p>
+						  <a class="close-button" href="#" rel="modal:close">Close</a>
 						</div>
 					</div>
 				</div>

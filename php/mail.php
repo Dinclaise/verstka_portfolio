@@ -8,11 +8,12 @@ $c = true;
 // Save Basic Form parametrs
 $project_name = trim($_POST["project_name"]);
 $admin_email  = trim($_POST["admin_email"]);
+$email_from  = trim($_POST["email_from"]);
 $form_subject = trim($_POST["form_subject"]);
 
 // Serialize form fields - that filled-in by User
 foreach ( $_POST as $key => $value ) {
-	if ( $value != "" && $key != "project_name" && $key != "admin_email" && $key != "form_subject" ) {
+	if ( $value != "" && $key != "project_name" && $key != "admin_email" && $key != "form_subject" && $key != "email_from" ) {
 		$message .= "
 		" . ( ($c = !$c) ? '<tr>':'<tr style="background-color: #f8f8f8;">' ) . "
 		<td style='padding: 10px; border: #e9e9e9 1px solid;'><b>$key</b></td>
@@ -44,7 +45,7 @@ function adopt($text) {
 // Preparing header
 $headers = "MIME-Version: 1.0" . PHP_EOL .
 "Content-Type: text/html; charset=utf-8" . PHP_EOL .
-'From: '.adopt($project_name).' <'.$admin_email.'>' . PHP_EOL .
+'From: '.adopt($project_name).' <'.$email_from.'>' . PHP_EOL .
 'Reply-To: '.$admin_email.'' . PHP_EOL;
 
 // Sending email to admin
@@ -53,4 +54,4 @@ mail($admin_email, adopt($form_subject), $message, $headers );
 // Saving user data in file
 send_user_data_in_txt_file ($message);
 
-header('location: ../thankyou.html');
+// header('location: ../thankyou.html');
